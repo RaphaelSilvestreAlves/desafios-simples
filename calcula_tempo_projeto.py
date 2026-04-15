@@ -17,7 +17,7 @@ def calcula_total(atividade_A, atividade_B, atividade_C):
     if atividade_A < 0 or atividade_B < 0 or atividade_C < 0:
         print('Erro! Não podemos cadastrar números negativos, tente novamente!')
     else: 
-        resultado = atividade_A+atividade_B+atividade_C
+        resultado = atividade_A + atividade_B + atividade_C
         print(f'A quantidade de dias gastos foi: {resultado}')
 
 calcula_total(atividade_A, atividade_B, atividade_C)
